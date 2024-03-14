@@ -1,0 +1,27 @@
+<iframe name='iframet' height="1" width="1" style="display: none;"></iframe>
+<form target='iframet' method="post" action="https://centinelapistag.cardinalcommerce.com/V1/Cruise/Collect" name="f1">
+    <table>
+        <div>
+            <span>Bin(Card No.) :</span>
+            <textarea rows="3" cols="200" name="Bin"></textarea>
+        </div>
+        <div>
+            <span>JWT :</span>
+            <textarea rows="3" cols="200" name="JWT"></textarea>
+        </div>
+    </table>
+    <button type="submit">submit</button>
+</form>
+<h3 id='referenceId'></h3>
+<script type="text/javascript">
+    window.addEventListener("message", function (event) {
+        console.log(JSON.parse(event.data));
+        if (event.origin === "https://centinelapistag.cardinalcommerce.com") {
+            var data = JSON.parse(event.data);
+            console.log('Merchant received a message:', data);
+            if (data !== undefined && data.Status) {
+                document.getElementById('referenceId').innerHTML = data.SessionId
+            }
+        }
+    }, false);
+</script>
