@@ -13,17 +13,17 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://qfpay.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/qf-sdk/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'QFPay', // Usually your GitHub org/user name.
-  projectName: 'qfpay-sdk-api', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -119,60 +119,13 @@ const config = {
           {
             type: 'html',
             position: 'left',
-            value: '<div class="qf-nav-menu"><Link href="/">Home</Link><a href="/docs/Preparation/introduction">Integration</a><a>Resources</a></div>'
+            value: '<div class="qf-nav-menu"><a href="/qf-sdk/">Home</a><a href="/qf-sdk/docs/Preparation/introduction">Integration</a><a>Resources</a></div>'
           },
-
-          
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'More',
-          //   items: [
-          //     {
-          //       label: 'Blog',
-          //       to: '/blog',
-          //     },
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/facebook/docusaurus',
-          //     },
-          //   ],
-          // },
         ],
         copyright: `QFPay Haojin Fintech Limited / iFlare Hong Kong Limited / Q Square Company Limited © ${new Date().getFullYear()}  |  Unit A, 27/F, West Gate Tower, 7 Wing Hong Street, Lai Chi Kok, Kowloon, Hong Kong |  All Rights Reserved`,
       },
