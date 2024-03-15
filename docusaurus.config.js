@@ -12,16 +12,16 @@ const config = {
   tagline: 'QFPay Developer Centre',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://qfpay.github.io',
+  url: 'https://yxiaao.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/qf-sdk/',
+  baseUrl: '/qfpay-sdk/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'QFPay', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'yxiaao', // Usually your GitHub org/user name.
+  projectName: 'qfpay-sdk', // Usually your repo name.
+
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
