@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkqfpay_sdk=self.webpackChunkqfpay_sdk||[]).push([[3723],{58371:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/qfpay-sdk/blog/tags/docusaurus","allTagsPath":"/qfpay-sdk/blog/tags","count":4,"unlisted":false}')}}]);
