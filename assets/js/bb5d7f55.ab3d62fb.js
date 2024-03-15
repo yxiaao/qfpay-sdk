@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkqfpay_sdk=self.webpackChunkqfpay_sdk||[]).push([[1549],{14560:a=>{a.exports=JSON.parse('{"title":"Preparation","description":"Preparation before you start","slug":"/category/preparation","permalink":"/qfpay-sdk/docs/category/preparation","navigation":{"next":{"title":"Introduction","permalink":"/qfpay-sdk/docs/preparation/introduction"}}}')}}]);
