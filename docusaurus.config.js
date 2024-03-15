@@ -119,7 +119,7 @@ const config = {
           {
             type: 'html',
             position: 'left',
-            value: '<div class="qf-nav-menu"><a href="/qf-sdk/">Home</a><a href="/qf-sdk/docs/Preparation/introduction">Integration</a><a>Resources</a></div>'
+            value: '<div class="qf-nav-menu"><a href="/qfpay-sdk/">Home</a><a href="/qfpay-sdk/docs/Preparation/introduction">Integration</a><a>Resources</a></div>'
           },
         ],
       },
